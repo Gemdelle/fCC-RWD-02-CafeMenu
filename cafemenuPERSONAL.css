@@ -1,0 +1,141 @@
+/* font-family: 'Abyssinica SIL', serif;
+font-family: 'Alice', serif;
+font-family: 'Berkshire Swash', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'IBM Plex Serif', serif;
+font-family: 'Lemonada', cursive;
+font-family: 'Macondo', cursive;
+font-family: 'Old Standard TT', serif;
+font-family: 'Pinyon Script', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Tangerine', cursive;
+font-family: 'Titillium Web', sans-serif; */
+
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: 'IBM Plex Serif', serif;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: 'Alice', serif;
+}
+
+h2 {
+    font-family: 'Abyssinica SIL', serif;
+}
+
+h1,
+h2, 
+p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+hr {
+    height: 2px;
+    background-color: rgb(102, 66, 56);
+    border-color: rgb(102, 66, 56);
+    margin: 30px;
+}
+
+.established {
+    font-style: italic;
+}
+
+.menu {
+    width: 80%;
+    max-width: 500px;
+    background-color: burlywood;
+    border: 5px solid rgb(150, 127, 96);
+    margin: 0% auto;
+    padding: 0px 20px;
+    padding: 2vw 2vw;
+}
+
+.price {
+    font-style: italic;
+    white-space: nowrap;
+}
+
+.item {
+    display: flex;
+}
+
+.order {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.flavor,
+.dessert {
+    width: auto;
+    white-space: nowrap;
+    text-align: left;
+}
+
+.item p {
+    margin: 6px 6px 0px 5px;
+    font-size: 14px;
+    font-weight: normal;
+    margin-block-start: 0;
+}
+
+.bottom-line {
+    margin-bottom: 25px;
+}
+
+.dashed {
+    width: 100%;
+    margin: 10px 10px 0px 10px;
+    border: none;
+    background-color: transparent;
+    border-top: 1px dashed rgb(131, 120, 97);
+}
+
+/* Footer */
+
+footer {
+    font-size: 14px;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: brown;
+}
+
+a:active {
+    color: brown;
+}
+
+.address {
+    margin-bottom: 5px;
+    font-style: italic;
+    font-size: small;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    margin-top: -20px;
+}
+
